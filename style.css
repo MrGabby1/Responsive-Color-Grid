@@ -1,5 +1,5 @@
 body {
-  background-color: #dedede;
+  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -17,8 +17,6 @@ h1 {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  max-width: 1200px;
-  margin: auto;
 }
 
 .row div {
@@ -31,9 +29,7 @@ h1 {
   height: 150px;
   object-fit: cover;
   display: block;
-  padding: 0;
-  border: none;
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 @media screen and (min-width: 772px) {
@@ -54,11 +50,4 @@ h1 {
   .row div img {
     height: 250px;
   }
-
-.row div p {
-  margin-top: 8px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-}
 }
